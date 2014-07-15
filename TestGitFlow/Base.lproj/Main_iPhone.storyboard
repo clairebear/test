@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYl-49-FtZ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XYl-49-FtZ">
                                 <rect key="frame" x="110" y="453" width="101" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Master Branch">
@@ -33,7 +33,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="XYl-49-FtZ" secondAttribute="bottom" constant="60" id="R0B-S3-9MJ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="XYl-49-FtZ" secondAttribute="bottom" constant="85" id="R0B-S3-9MJ"/>
                             <constraint firstAttribute="centerX" secondItem="XYl-49-FtZ" secondAttribute="centerX" id="drl-aa-6ft"/>
                         </constraints>
                     </view>
