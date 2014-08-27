@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self.developingButton setTitle:@"iOS 8 Fix" forState:UIControlStateNormal];
+    [self.developingButton setTitle:@"iOS 8 Fix second" forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning
