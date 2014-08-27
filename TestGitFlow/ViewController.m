@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *developingButton;
 
 @end
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self.developingButton setTitle:@"iOS 8 Fix" forState:UIControlStateNormal];
 }
 
 - (void)didReceiveMemoryWarning
